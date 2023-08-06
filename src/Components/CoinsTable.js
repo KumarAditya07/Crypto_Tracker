@@ -23,12 +23,12 @@ export function numberWithCommas(x) {
         backgroundColor: "#131111",
       },
       fontFamily: "Montserrat",
-    }
-    // pagination: {
-    //   "& .MuiPaginationItem-root": {
-    //     color: "gold",
-    //   },
-    // },
+    },
+    pagination: {
+      "& .MuiPaginationItem-root": {
+        color: "gold",
+      },
+    },
   });
 
 const CoinsTable = () => {
